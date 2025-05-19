@@ -26,10 +26,10 @@
         <h2 class="my-4">➕ Nouveau meuble</h2>
         
         <div class="form-container bg-white">
-            <form action="#" method="">
+            <form action="ajout"  method="post">
                 <div class="mb-3">
                     <label class="form-label">Référence</label>
-                    <input type="text" class="form-control" placeholder="Ex: MBL-2023-001">
+                    <input type="text" class="form-control" placeholder="Ex: MBL-2023-001" name="refe">
                 </div>
 
                 <div class="mb-3">

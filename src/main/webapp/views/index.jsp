@@ -21,6 +21,7 @@
 <body class="custom-bg">
     <div class="container">
         <h1 class="text-center mb-5"> Gestion des Meubles</h1>
+
         
         <div class="row g-4">
             <div class="col-md-4">
