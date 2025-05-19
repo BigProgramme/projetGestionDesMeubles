@@ -6,7 +6,7 @@
 <meta charset="UTF-8">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
 
-<title>Insert title here</title>
+<title>Ajouter un meuble</title>
 
 <style>
         .form-container {
