@@ -11,13 +11,13 @@ import javax.servlet.http.HttpServletResponse;
  * Servlet implementation class ajout
  */
 @WebServlet("/ajout")
-public class ajout extends HttpServlet {
+public class Ajout extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
     /**
      * @see HttpServlet#HttpServlet()
      */
-    public ajout() {
+    public Ajout() {
         super();
         // TODO Auto-generated constructor stub
     }
