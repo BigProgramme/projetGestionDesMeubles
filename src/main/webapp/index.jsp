@@ -28,7 +28,7 @@
                 <div class="card h-100 shadow">
                     <div class="card-body text-center">
                         <h5 class="card-title">Nouveau meuble</h5>
-                        <a href="ajouterMeuble.jsp" class="btn btn-primary mt-3">Commencer</a>
+                        <a href="ajouterMeuble" class="btn btn-primary mt-3">Commencer</a>
                     </div>
                 </div>
             </div>
@@ -37,7 +37,7 @@
                 <div class="card h-100 shadow">
                     <div class="card-body text-center">
                         <h5 class="card-title">Catalogue</h5>
-                        <a href="listeMeuble.jsp" class="btn btn-info mt-3">Voir la liste</a>
+                        <a href="listedesmeubles" class="btn btn-info mt-3">Voir la liste</a>
                     </div>
                 </div>
             </div>
@@ -46,7 +46,7 @@
                 <div class="card h-100 shadow">
                     <div class="card-body text-center">
                         <h5 class="card-title"> Production</h5>
-                        <a href="etapesFabrication.jsp" class="btn btn-warning mt-3">Suivre</a>
+                        <a href="suivi" class="btn btn-warning mt-3">Suivre</a>
                     </div>
                 </div>
             </div>
