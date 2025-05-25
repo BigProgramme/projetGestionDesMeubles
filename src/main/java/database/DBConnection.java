@@ -12,8 +12,8 @@ public class DBConnection {
 
         // Configuration de la connexion
         String url = "jdbc:mysql://localhost:3306/gestion_meubles?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC";
-        String user = "your user"; //; généralement root
-        String password = "your passeword"; // votre mot de passe de mysql
+        String user = "your user";
+        String password = "your passeword"; // 
 
         // Retourne la connexion
         return DriverManager.getConnection(url, user, password);

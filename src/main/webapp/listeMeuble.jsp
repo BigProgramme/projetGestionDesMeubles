@@ -7,11 +7,21 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <title>Catalogue des meubles</title>
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
+.catalogue-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 15px;
+    table-layout: auto;
+}
+
+
     .catalogue-table {
         border-collapse: separate;
         border-spacing: 0 15px;
@@ -27,15 +37,22 @@
 </head>
 
 <body class="bg-light">
+<jsp:include page="menu.jsp" />
+<%@ include file="auth_check.jsp" %>
+
+
     <div class="container py-4">
         <div class="d-flex justify-content-between align-items-center mb-4">
             <h2>Catalogue des meubles</h2>
-            <a href="index.jsp" class="btn btn-link">Retour</a>
+             <!--  <a href="index" class="btn btn-link">Retour</a> -->
         </div>
         
 
         <div class="card shadow">
             <div class="card-body">
+            <div class="table-responsive">
+            
+            
                 <table class="table catalogue-table">
                     <thead class="table-light">
                         <tr>
@@ -98,6 +115,7 @@
                         %>
                     </tbody>
                 </table>
+               </div>
             </div>
         </div>
     </div>

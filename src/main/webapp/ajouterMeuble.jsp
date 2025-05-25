@@ -3,6 +3,8 @@
 <html>
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <title>Ajouter un meuble</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
@@ -22,6 +24,10 @@
     </style>
 </head>
 <body>
+<jsp:include page="menu.jsp" />
+<%@ include file="auth_check.jsp" %>
+
+
     <div class="container">
         <h2 class="my-4">➕ Nouveau meuble</h2>
         <div class="form-container bg-white">
@@ -73,7 +79,7 @@
 
                 <div class="d-grid gap-2">
                     <button type="submit" class="btn btn-success">Enregistrer</button>
-                    <a href="index.jsp" class="btn btn-outline-secondary">Annuler</a>
+                    <a href="index" class="btn btn-outline-secondary">Annuler</a>
                 </div>
             </form>
         </div>

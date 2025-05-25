@@ -43,7 +43,7 @@ public class SupprimerMeubleServelet extends HttpServlet {
                 stmt.setString(1, reference);
 
                 int rowsDeleted = stmt.executeUpdate();
-                System.out.println("Meuble supprimé ? " + (rowsDeleted > 0));
+               // System.out.println("Meuble supprimé ? " + (rowsDeleted > 0));
 
                 stmt.close();
                 con.close();

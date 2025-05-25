@@ -7,6 +7,8 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <title>Étapes de fabrication</title>
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
 
@@ -21,10 +23,14 @@
 </style>
 </head>
 <body class="bg-light">
+<jsp:include page="menu.jsp" />
+<%@ include file="auth_check.jsp" %>
+
+
 
     <div class="container py-4">
         <h2 class="mb-4">📊 Suivi de production</h2>
-        <a href="index.jsp" class="btn btn-link">Retour</a>
+        <!--  <a href="index" class="btn btn-link">Retour</a> -->
         <div class="row g-4">
 
             <!-- Étape 1 : Assemblage -->
