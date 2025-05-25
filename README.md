@@ -73,7 +73,7 @@
 
 ## Améliorations possibles 🛠️
 
-* Ajout d’une authentification utilisateur
+* Ajout d’une authentification utilisateur ✅ (done)
 * Gestion de la disponibilité des employés
 * Export PDF du catalogue ou de la traçabilité
 * Tableau de bord graphique (statistiques de production)
